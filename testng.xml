@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Testing parameter">
+        <parameter name="username" value="abc123"></parameter>
+        <parameter name="password" value="xyz123"></parameter>
+        <parameter name="address" value="balewadi"></parameter>
+        <classes>
+            <class name="TestParameter"></class>
+        </classes>
+    </test>
+</suite>
